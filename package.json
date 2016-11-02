@@ -1,0 +1,11 @@
+{
+  "name": "filemeta",
+  "version": "1.0.0",
+  "description": "See the <a href=\"https://urlshortener-kurumkan.herokuapp.com/\" target=\"_blank\">demo</a>.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
