@@ -1,6 +1,7 @@
 body{
 	font-family: 'Roboto Slab', serif;
 	color: #444;
+	text-align: center;
 }
 
 #input-box{
@@ -25,8 +26,37 @@ body{
 	height: 20px;
 }
 
-.glyphicon-home{
+.glyphicon{
 	display: inline-block;
 	margin-right: 10px;
 }
+
+label {
+   	cursor: pointer;
+	margin-right: 20px;   
+}
+
+#fileinput{
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+
+#main{
+	background: #eee;
+	min-height: 300px;
+	padding-top: 5%;
+	padding-left:25px; 
+	padding-right:25px;
+}
+
+#centered{
+	width: 250px;
+	margin: 25px auto;		
+}
+
+#form-error{
+	color: red;
+}
+
 
